@@ -724,9 +724,10 @@ nav ul a:hover{
     .aboutus{
         width: 90%;
     }
+
     .container_aboutus {
-        padding: 15px;
-        height: 650px;
+        padding: 18px;
+        height: 750px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr;
         row-gap: 20px;
@@ -735,13 +736,14 @@ nav ul a:hover{
           "texto_nosotros";
     }
     .poppins_17{
-        font-size: 12px;
+        font-size: 14px;
         text-align: justify;
     }
     .ilustracion_about img{
-        width: 350px;
+        width: 730px;
         justify-self: center;
     }
+    
     
 }
 
@@ -938,5 +940,23 @@ nav ul a:hover{
     }
     footer{
         height: auto;
-}
+    }
+    .container_aboutus {
+        padding: 15px;
+        height: 650px;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr;
+        row-gap: 20px;
+        grid-template-areas:
+          "ilustracion_about"
+          "texto_nosotros";
+    }
+    .poppins_17{
+        font-size: 12px;
+        text-align: justify;
+    }
+    .ilustracion_about img{
+        width: 350px;
+        justify-self: center;
+    }
 }
