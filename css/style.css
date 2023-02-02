@@ -549,6 +549,51 @@ footer div .rrss ul{
     justify-self: center; 
 }
 
+/* aqui metemos hovers*/
+
+nav ul a:hover{
+    font-weight: bold;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+
+.boton_about img:hover{
+    opacity: 50%;
+}
+
+.news_1 img:hover{
+    opacity: 50%;
+}
+.news_2 img:hover{
+    opacity: 50%;
+}
+.news_3 img:hover{
+    opacity: 50%;
+}
+.news_4 img:hover{
+    opacity: 50%;
+}
+
+.Psychologist img:hover{
+    opacity: 50%;
+}
+.Endocrine img:hover{
+    opacity: 50%;
+}
+.Counseling img:hover{
+    opacity: 50%;
+}
+.More img:hover{
+    opacity: 50%;
+}
+.join_button img:hover{
+    opacity: 50%;
+}
+
+
+
 @media screen and (max-width: 768px) {
 
     .container{
