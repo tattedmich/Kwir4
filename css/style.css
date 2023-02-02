@@ -608,6 +608,16 @@ nav ul a:hover{
         font-size: 70px;
     }
 
+    .intro{
+        background-image: url(../img/LoveIsLove_opacity.svg);
+        padding:10px;
+        height: 320px;
+    }
+    .Imagen img{
+        height: 50px;
+        width: 0.2px;
+    }
+
     .container_about {  
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
@@ -730,12 +740,13 @@ nav ul a:hover{
         "Texto Imagen"
     }
     .intro{
+        background-image: url(../img/LoveIsLove_opacity.svg);
         padding:10px;
         height: 320px;
     }
     .Imagen img{
-        opacity: 50%;
-        height: 300px;
+        height: 50px;
+        width: 0.2px;
     }
     h1{
         font-size: 50px;
