@@ -720,6 +720,10 @@ nav ul a:hover{
     footer{
         height: 300px;
     }
+    .logo_footer img{
+        width: 174px;
+        height: 108px;
+    }
 
     .aboutus{
         width: 90%;
@@ -940,6 +944,11 @@ nav ul a:hover{
     }
     footer{
         height: auto;
+    }
+
+    .logo_footer img{
+        width: 174px;
+        height: 108px;
     }
     .container_aboutus {
         padding: 15px;
